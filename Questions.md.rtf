@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf760
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Questions from Daniel Shiffman\'92s video tutorials\
+\
+1. What is the difference between a 
+\i for
+\i0  loop and a 
+\i while 
+\i0 loop?\
+	A 
+\i while
+\i0  loop translates from an 
+\i if
+\i0  loop while using the true statement and making it into an endless loop. It essentially creates an endless mechanism, in this case an ellipse, and can go on forever. A 
+\i for
+\i0  loop is an abbreviated version of the 
+\i while 
+\i0 loop. It puts all three elements of the 
+\i while
+\i0  loop together, the variable, the exit condition and the increment condition.\
+\
+A 
+\i while 
+\i0  loop looks like:\
+var x=0\
+while(x<width)\{\
+ellipse (x, 200, 25, 25)\
+x=x+50;\
+\}\
+\
+A 
+\i for
+\i0  loop looks like this:\
+for (var x = 0; x< width; x=x+50)\{\
+fill (255, 0, 200);\
+ellipse (x, 300, 25, 25);\
+\}\
+\
+2. What are the four parts of a 
+\i for
+\i0  loop? What do they do?\
+*variable- sets the variable, for example instead of writing 50, 100, 150, 200, you can assign a 	variable x and then increase it incrementally under each line of code such as x= x+50\
+*exit condition-is when the loop will stop, for example, x<width (of the canvas)\
+*increment condition- this is how many increments the variable will increase or change each line of 	code that is implemented\
+*line of code- this instructs what is being done\
+\
+3. What does \'93nested\'94 mean in the context of nested loops?\
+Nested means imbedded inside of and a nested loop refers to a grid pattern being made on the screen. \
+}
